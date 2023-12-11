@@ -1,0 +1,31 @@
+#user_container{
+    width: 50vw;
+    box-shadow: 2px 2px 7px;
+    text-align: center;
+    left: 25vw;
+    position: absolute;
+    z-index: 5000;
+    top: 50vh;
+}
+#user_form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#user{
+    width: 75%;
+    margin-top: 10px;
+}
+#password{
+    width: 75%;
+}
+#send_user{
+    margin: 0px 0px 10px;
+}
+.user_display{
+    display: none;
+}
